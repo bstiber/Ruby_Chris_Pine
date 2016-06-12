@@ -5,5 +5,5 @@
  words = []
 
  words.push(input)
-puts "these are the words that you entered into an arry: #{words}"
+puts "these are the words that you entered into an arry: #{words}.sort"
 puts words
