@@ -1,4 +1,6 @@
+
 puts "enter some words"
+
 words = []
 input = gets.chomp
 
@@ -9,17 +11,6 @@ while input != ''
 end
 
 puts words.sort
-
-#
-# responses = []
-# response = gets.chomp
-#
-# while response != ''
-#   responses.push response
-#   response = gets.chomp # get another line from the user
-# end
-#
-# puts responses.sort
 
 # or
 # responses = []
