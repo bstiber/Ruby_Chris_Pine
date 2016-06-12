@@ -1,0 +1,35 @@
+$ git config --global user.name "Padma Patil"
+$ git config --global user.email padma@email.com
+
+$ git config --global user.name ___: Globally configures Git profile for entire
+device (use only when working solo).
+
+$ git init: Initializes new local Git repository.
+
+# <<<< add a repository to github, in github, first before remote add >>>>
+
+$ git remote add (initials) https://github.com/bstiber/<directory_name>
+
+#the above command tells Git to store information about a remote repository that we
+gave the nickname, (initials) located at https://github.com/epicodus-lessons/hello-world.
+We could use any nickname for the remote but we've chosen al for brevity and to be consistent
+with the initials we are using as pairs.
+
+$ git remote -v: to check that the remote add was successful
+
+$ git push (initial) master: pushes the file to github
+
+$ git clone https://github.com/epicodus-lessons/hello-world: this clones a directory
+to your computer
+
+$ mkdir <directory_name>: makes a new folder / directory
+
+$ touch <file_name>:  adds filename to directory
+
+$ git status: checks status
+
+$ git log: list the log or record of ...
+
+$ git add: add's filename to git
+
+$ git commit -m "": commits file to be pushed to github
